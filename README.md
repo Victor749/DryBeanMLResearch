@@ -1,6 +1,6 @@
 Importante:
 
-En este direcotrio se encuentran 3 cuadernos de Jupyter en donde hay varias fases del proceso de investigación de "Clasificación y Clustering de Granos Secos".
+En este directorio se encuentran 3 cuadernos de Jupyter en donde hay varias fases del proceso de investigación de "Clasificación y Clustering de Granos Secos".
 
 En "clasificacion.ipynb" -> Se encuentra el pre-procesamiento del dataset usado, las técnicas de validación usadas, el entrenamiento de los diversos modelos de ML, las métricas resultantes de cada uno de estos y las pruebas por pares de McNemar y t-test llevado a cabo para encontrar el mejor modelo.
 
