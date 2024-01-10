@@ -1,15 +1,21 @@
-Importante:
+# Classification and Clustering of Dry Grains
 
-En este directorio se encuentran 3 cuadernos de Jupyter en donde hay varias fases del proceso de investigación de "Clasificación y Clustering de Granos Secos".
+Grain classification is an important task for selective cultivation and marketing. This task can be automated using Computer Vision and Machine Learning techniques. In this work, several classification models such as SVM, MLP, XGB and KNN are applied and compared to determine which type of classifier is the best to perform this task. On the other hand, clustering models such as AC, K-means and HDBSCAN are applied and compared to determine which method allows finding groupings that are as close as possible to the real classification of the grains. The main results are that SVM is the most appropriate classifier for this problem and that of the clustering methods analyzed none is close enough to the real classification of the grains.
 
-En "clasificacion.ipynb" -> Se encuentra el pre-procesamiento del dataset usado, las técnicas de validación usadas, el entrenamiento de los diversos modelos de ML, las métricas resultantes de cada uno de estos y las pruebas por pares de McNemar y t-test llevado a cabo para encontrar el mejor modelo.
+The pdf file "DryBeansClassification.pdf" is the paper that explains in more detail all the procedure and results, a translation of this paper to English is pending.
 
-En "prueba_mejora_clasificacion_reduccion_dimensiones.ipynb" -> Se encuentra un intento de mejora del mejor modelo hallado en el cuaderno anterior a través de la aplicación de varias técnicas de reducción de dimensiones. Además, se encuentran las pruebas de McNemar para determinar si hay una mejora al aplicarlas.
+## Important
 
-En "clusterización.ipynb" -> Se encuentra la aplicación de varios algoritmos de clusterización sobre el dataset inalterado y sobre el dataset trasnformado por varias tecnicas de reduccion de dimensiones. Se obtiene el Adjusted Rand Index de cada clusterización y se visualiza cada cluster en un grafico bidimensional gracias a las mismas técnicas de reducción de dimensiones.
+In this directory there are 3 Jupyter notebooks where there are several phases of the research process of "Classification and Clustering of Dry Grains".
+
+In "clasificacion.ipynb" -> there is the pre-processing of the dataset used, the validation techniques used, the training of the various ML models, the metrics resulting from each of these and the pairwise tests of McNemar and t -test carried out to find the best model.
+
+In "prueba_mejora_clasificacion_reduccion_dimensiones.ipynb" -> There is an attempt to improve the best model found in the previous notebook through the application of several dimension reduction techniques. In addition, there are McNemar tests to determine if there is an improvement when applying them.
+
+In "clusterización.ipynb" -> there is the application of several clustering algorithms on the unaltered dataset and on the dataset transformed by various dimension reduction techniques. The Adjusted Rand Index is obtained for each clusterization and each cluster is visualized in a two-dimensional graph thanks to the same dimension reduction techniques.
 
 
-Acknowledgements (Dataset):
+## Acknowledgements (Dataset):
 
 KOKLU, M. and OZKAN, I.A., (2020), “Multiclass Classification of Dry Beans Using Computer Vision and Machine Learning Techniques.” Computers and Electronics in Agriculture, 174, 105507.
 DOI: https://doi.org/10.1016/j.compag.2020.105507
